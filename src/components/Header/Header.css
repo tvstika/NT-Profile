@@ -1,0 +1,23 @@
+.h-wrapper{
+    background: white;
+    color: black;
+    padding: 0.5rem;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.h-menu{
+    gap: 2rem;
+}
+
+.h-menu>hover{
+    cursor: pointer;
+}
