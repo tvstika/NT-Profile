@@ -1,7 +1,7 @@
 .h-wrapper{
     background: white;
     color: black;
-    padding: 0.5rem;
+    padding: 1rem 2rem 0 2rem;
 }
 
 .h-container{
@@ -26,7 +26,7 @@ ul{
     display: none;
 }
 
-@media(max-width: 768px){
+@media(max-width: 640px){
     .menu-icon{
         display: block;
     }
