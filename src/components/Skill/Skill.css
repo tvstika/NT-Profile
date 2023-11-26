@@ -1,0 +1,55 @@
+.skill-wrapper{
+    position: relative;
+    padding: 2rem;
+}
+.skill-container{
+    grid-template-columns: repeat(2, 350px);
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.skill-title{
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.skillbox-left{
+    border: 2px solid black;
+    height: 400px;
+    width: 17rem;
+    padding: 1rem;
+}
+
+.skillbox-center{
+    border: 2px solid black;
+    height: 400px;
+    width: 17rem;
+    padding: 1rem;
+}
+
+.skillbox-right{
+    border: 2px solid black;
+    height: 400px;
+    width: 17rem;
+    padding: 1rem;
+}
+
+.skillgroup{
+    font-size: 0.8rem;
+}
+
+.skill-name{
+    color: black;
+}
+
+.skill-level{
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+@media(max-width: 640px){
+    .skillbox-left, .skillbox-center, .skillbox-right{
+        width: 12rem;
+    }
+}
