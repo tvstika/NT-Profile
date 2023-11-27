@@ -13,6 +13,16 @@ const Header = () => {
       return {right: !menuOpened && "-100%"}
     }
   }
+
+  const handleMenuClick=(sectionId)=>{
+    const targetElement = document.getElementById(sectionId);
+    if (targetElement){
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: "smooth",
+      })
+    }
+  }
   return (
     <section className="h-wrapper">
         <div className="flexCenter paddings innerWidth h-container">
@@ -21,11 +31,11 @@ const Header = () => {
             <OutsideClickHandler
             onOutsideClick={()=>{setMenuOpened(false)}}>
             <ul className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
+                <li><div onClick={() => handleMenuClick("hero")}>Home</div></li>
+                {/* <li><div onClick={() => handleMenuClick("about")}>About</div></li> */}
+                <li><div onClick={() => handleMenuClick("skills")}>Skills</div></li>
+                <li><div onClick={() => handleMenuClick("portfolio")}>Portfolio</div></li>
+                {/* <li><div onClick={() => handleMenuClick("contact")}>Contact</div></li> */}
             </ul>
             </OutsideClickHandler>
 

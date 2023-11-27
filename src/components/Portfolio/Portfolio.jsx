@@ -5,7 +5,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 const Portfolio = () => {
   return (
-    <section className="porto-wrapper">
+    <section id="portfolio" className="porto-wrapper">
       <div className="porto-container flexCenter paddings innerWidth">
         <h2 className="porto-title flexCenter paddings innerWidth">Portfolio</h2>
         {/* Left */}

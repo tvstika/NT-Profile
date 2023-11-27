@@ -3,9 +3,9 @@ import "./Skill.css"
 
 const Skill = () => {
   return (
-    <section className="skill-wrapper">
+    <section id="skills" className="skill-wrapper">
         <div className="skill-container flexCenter paddings innerWidth">
-        <h2 className="about-title flexCenter paddings innerWidth">Skills</h2>
+        <h2 className="skill-title flexCenter paddings innerWidth">Skills</h2>
             {/* Left */}
             <div className="skillbox-left">
             <h3 className="skill-title secondaryText flexCenter">Frontend</h3>

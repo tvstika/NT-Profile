@@ -9,7 +9,7 @@ import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => {
   return (
-    <section className="hero-wrapper">
+    <section id="hero" className="hero-wrapper">
         <div className="paddings innerwidth flexCenter hero-container">
             {/* Left */}
             <div className="flexColStart hero-left">
