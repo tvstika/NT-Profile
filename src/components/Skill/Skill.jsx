@@ -8,7 +8,7 @@ const Skill = () => {
         <h2 className="skill-title flexCenter paddings innerWidth">Skills</h2>
             {/* Left */}
             <div className="skillbox-left">
-            <h3 className="skill-title secondaryText flexCenter">Frontend</h3>
+            <h3 className="skilltitle secondaryText flexCenter">Frontend</h3>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">HTML</h3>
                     <h3 className="skill-level">intermediate</h3>
@@ -33,7 +33,7 @@ const Skill = () => {
 
             {/* Center */}
             <div className="skillbox-center">
-                <h3 className="skill-title secondaryText flexCenter">Backend</h3>
+                <h3 className="skilltitle secondaryText flexCenter">Backend</h3>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">PHP</h3>
                     <h3 className="skill-level">basic</h3>
@@ -46,7 +46,7 @@ const Skill = () => {
 
             {/* Right */}
             <div className="skillbox-right">
-                <h3 className="skill-title secondaryText flexCenter">Graphic Design</h3>
+                <h3 className="skilltitle secondaryText flexCenter">Graphic Design</h3>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">Adobe Ilustrator</h3>
                     <h3 className="skill-level">intermediate</h3>

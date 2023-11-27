@@ -29,8 +29,15 @@
     padding: 1rem;
 }
 
+
 .skillgroup{
     font-size: 0.8rem;
+}
+
+.skilltitle{
+    color: black;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
 }
 
 .skill-name{
