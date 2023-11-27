@@ -1,0 +1,40 @@
+.porto-wrapper {
+    padding: 20px;
+  }
+  
+  .porto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .portobox {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1rem;
+  }
+
+  .porto-name{
+    padding-top: 1rem;
+  }
+  
+  .porto{
+    width: 100%;
+    height: auto;
+  }
+
+  .porto-demo{
+    cursor: pointer;
+    border: 2px solid;
+    padding: 0.3rem;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-box {
+      width: 100%;
+    }
+  }
+  

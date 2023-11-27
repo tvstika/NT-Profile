@@ -1,10 +1,9 @@
 import React from 'react'
 import "./Skill.css"
 
-const About = () => {
+const Skill = () => {
   return (
     <section className="skill-wrapper">
-
         <div className="skill-container flexCenter paddings innerWidth">
         <h2 className="about-title flexCenter paddings innerWidth">Skills</h2>
             {/* Left */}
@@ -58,4 +57,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Skill
