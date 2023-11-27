@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faSquareBehance } from '@fortawesome/free-brands-svg-icons'
+import { faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => {
   return (
@@ -17,6 +19,14 @@ const Hero = () => {
 
                 <a href="https://github.com/tvstika" className="social-icon">
                 <FontAwesomeIcon icon={faSquareGithub} size="3x" />
+                </a>
+
+                <a href="https://wa.me/628995172233" className="social-icon">
+                <FontAwesomeIcon icon={faSquareWhatsapp} size="3x" />
+                </a>
+
+                <a href="mailto:tustika.nityasa@gmail.com" className="social-icon">
+                <FontAwesomeIcon icon={faSquareEnvelope} size="3x" />
                 </a>
 
                 <a href="https://www.behance.net/nityasatustika" className="social-icon">
