@@ -11,23 +11,23 @@ const Skill = () => {
             <h3 className="skilltitle secondaryText flexCenter">Frontend</h3>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">HTML</h3>
-                    <h3 className="skill-level">intermediate</h3>
+                    {/* <h3 className="skill-level">intermediate</h3> */}
                 </div>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">CSS</h3>
-                    <h3 className="skill-level">intermediate</h3>
+                    {/* <h3 className="skill-level">intermediate</h3> */}
                 </div>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">JavaScript</h3>
-                    <h3 className="skill-level">basic</h3>
+                    {/* <h3 className="skill-level">basic</h3> */}
                 </div>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">React.js</h3>
-                    <h3 className="skill-level">intermediate</h3>
+                    {/* <h3 className="skill-level">intermediate</h3> */}
                 </div>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">Flutter</h3>
-                    <h3 className="skill-level">intermediate</h3>
+                    {/* <h3 className="skill-level">intermediate</h3> */}
                 </div>
             </div>
 
@@ -36,11 +36,11 @@ const Skill = () => {
                 <h3 className="skilltitle secondaryText flexCenter">Backend</h3>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">PHP</h3>
-                    <h3 className="skill-level">basic</h3>
+                    {/* <h3 className="skill-level">basic</h3> */}
                 </div>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">Firebase</h3>
-                    <h3 className="skill-level">basic</h3>
+                    {/* <h3 className="skill-level">basic</h3> */}
                 </div>
             </div>
 
@@ -49,7 +49,15 @@ const Skill = () => {
                 <h3 className="skilltitle secondaryText flexCenter">Graphic Design</h3>
                 <div className="skillgroup secondaryText flexColStart">
                     <h3 className="skill-name">Adobe Ilustrator</h3>
-                    <h3 className="skill-level">intermediate</h3>
+                    {/* <h3 className="skill-level">intermediate</h3> */}
+                </div>
+                <div className="skillgroup secondaryText flexColStart">
+                    <h3 className="skill-name">Photoshop</h3>
+                    {/* <h3 className="skill-level">intermediate</h3> */}
+                </div>
+                <div className="skillgroup secondaryText flexColStart">
+                    <h3 className="skill-name">Blender</h3>
+                    {/* <h3 className="skill-level">intermediate</h3> */}
                 </div>
             </div>
         </div>

@@ -4,28 +4,28 @@
 }
 .skill-container{
     grid-template-columns: repeat(2, 350px);
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1rem;
 }
 
 .skillbox-left{
     border: 2px solid black;
-    height: 400px;
-    width: 17rem;
+    height: 300px;
+    width: 15rem;
     padding: 1rem;
 }
 
 .skillbox-center{
     border: 2px solid black;
-    height: 400px;
-    width: 17rem;
+    height: 300px;
+    width: 15rem;
     padding: 1rem;
 }
 
 .skillbox-right{
     border: 2px solid black;
-    height: 400px;
-    width: 17rem;
+    height: 300px;
+    width: 15rem;
     padding: 1rem;
 }
 
@@ -42,6 +42,7 @@
 
 .skill-name{
     color: black;
+    padding-bottom: 0.5rem;
 }
 
 .skill-level{
